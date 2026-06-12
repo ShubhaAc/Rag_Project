@@ -107,14 +107,16 @@ uvicorn app.main:app --reload
 
 ## API Endpoints
 
-### Upload a Document
-`POST /api/v1/ingest/upload`
-
-Upload a PDF or TXT file. Choose a chunking strategy — `recursive` or `token`.
+Two endpoints are available :
+`POST /api/v1/ingest/upload` and
+`POST /api/v1/rag/chat`
 
 ![Swagger UI](screenshots/Screenshot%202026-06-12%20083544.png)
 
+### Upload a Document
+
 **Recursive chunking:**
+Upload a PDF or TXT file and choose a chunking strategy — `recursive` or `token`.
 
 ![Recursive strategy](screenshots/Screenshot%202026-06-12%20083646.png)
 ![Recursive response](screenshots/Screenshot%202026-06-12%20083720.png)
