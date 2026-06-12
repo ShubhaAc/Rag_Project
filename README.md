@@ -114,9 +114,9 @@ Two endpoints are available :
 ![Swagger UI](screenshots/Screenshot%202026-06-12%20083544.png)
 
 ### Upload a Document
-
-**Recursive chunking:**
 Upload a PDF or TXT file and choose a chunking strategy — `recursive` or `token`.
+**Recursive chunking:**
+
 
 ![Recursive strategy](screenshots/Screenshot%202026-06-12%20083646.png)
 ![Recursive response](screenshots/Screenshot%202026-06-12%20083720.png)
